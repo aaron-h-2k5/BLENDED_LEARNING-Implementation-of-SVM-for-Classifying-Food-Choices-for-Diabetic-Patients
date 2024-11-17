@@ -1,6 +1,6 @@
-# BLENDED LEARNING
 # Implementation of Support Vector Machine for Classifying Food Choices for Diabetic Patients
-
+### Developed by: Aaron H
+### RegisterNumber: 212223040001
 ## AIM:
 To implement a Support Vector Machine (SVM) model to classify food items and optimize hyperparameters for better accuracy.
 
@@ -29,15 +29,12 @@ To implement a Support Vector Machine (SVM) model to classify food items and opt
 
 7. **Evaluate Model**  
    Assess the model’s accuracy and effectiveness on the testing set using performance metrics.
+8. **Visualize Results**
+   Plot the confusion matrix as a heatmap to assess prediction performance.
 
 ## Program:
 ```
-/*
-Program to implement SVM for food classification for diabetic patients.
-Developed by: Aaron H
-RegisterNumber: 212223040001
-*/
-
+# Program to implement SVM for food classification for diabetic patients. 
 # Import necessary libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -95,7 +92,6 @@ plt.ylabel("Actual")
 plt.title("Confusion Matrix")
 plt.show()
 
-*/
 ```
 
 ## Output:
